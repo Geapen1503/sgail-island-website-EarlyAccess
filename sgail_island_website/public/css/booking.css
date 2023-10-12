@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#MainBox{
+    display: flex;
+    width: 100%;
+    height: 160vw;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: pink;
+}
+
+.backgroundImgBox{
+    display: flex;
+    width: 100%;
+    height: 50vw;
+    position: relative;
+    z-index: 0;
+}
+
+.background-image{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.introBookingBox{
+    display: flex;
+    width: 30vw;
+    height: 25vw;
+    z-index: 1;
+    margin-top: -35vw;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introBookingTitle{
+    color: white;
+    font-size: 3.5vw;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2vw;
+}
+
+.introBookingDescription{
+    color: white;
+    font-size: 1.2vw;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+.introBookingButton{
+    display: flex;
+    color: white;
+    width: 10vw;
+    height: 3vw;
+    margin-top: 1.8vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2vw;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #992B17;
+}
+
+.introBookingButton:hover{
+    color: #D8C05B;
+    transition-duration: 0.5s;
+}
+
+.bookingBox1{
+    display: flex;
+    width: 100%;
+    height: 60vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top, black, #D8C05B);
+}
+
+.bookingBox2{
+    display: flex;
+    width: 100%;
+    height: 60vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, black, #D8C05B);
+}
+
+#bookingBoxScrollMarker{
+    margin-top: 10vw;
+}
+
+.bookingRoomBox{
+    display: flex;
+    width: 60vw;
+    height: 35vw;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.bookingBoxTitle{
+    color: white;
+    font-weight: bold;
+    margin-top: 0.2vw;
+    font-size: 3.5vw;
+    text-align: center;
+}
+
+.bookingBoxDescription{
+    color: white;
+    margin-top: 0.5vw;
+    margin-bottom: 2vw;
+    font-weight: bold;
+    font-size: 1.2vw;
+    font-style: italic;
+    text-align: center;
+}
+
+.topBox{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.roomBox1{
+    display: flex;
+    width: 16vw;
+    height: 21vw;
+    flex-direction: column;
+}
+
+.roomBox2{
+    display: flex;
+    width: 16vw;
+    height: 21vw;
+    flex-direction: column;
+}
+
+.roomBox3{
+    display: flex;
+    width: 16vw;
+    height: 21vw;
+    flex-direction: column;
+}
+
+.roomBox4{
+    display: flex;
+    width: 16vw;
+    height: 21vw;
+    flex-direction: column;
+}
+
+.roomBox5{
+    display: flex;
+    width: 16vw;
+    height: 21vw;
+    flex-direction: column;
+}
+
+.roomBox6{
+    display: flex;
+    width: 16vw;
+    height: 21vw;
+    flex-direction: column;
+}
+
+.imgTopRoomBox{
+    display: flex;
+    width: 100%;
+    height: 45%;
+}
+
+.roomImg{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 0.3vw;
+    border-top-right-radius: 0.3vw;
+}
+
+.textBottomRoomBox{
+    display: flex;
+    width: 100%;
+    height: 55%;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-left-radius: 0.3vw;
+    border-bottom-right-radius: 0.3vw;
+
+    background-color: black;
+}
+
+.roomTitle{
+    color: white;
+    font-weight: bold;
+    margin-top: 0.2vw;
+    font-size: 1.7vw;
+    text-align: center;
+}
+
+.roomDescription{
+    color: white;
+    margin-top: 0.5vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-weight: bold;
+    font-size: 0.7vw;
+    font-style: italic;
+    text-align: center;
+}
+
+.pricingBookingBottomBox{
+    display: flex;
+    width: 100%;
+    height: 4vw;
+    margin-top: 0.8vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.textRoomPrice{
+    color: white;
+    font-size: 1.1vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+.roomButton{
+    display: flex;
+    color: white;
+    width: 7vw;
+    height: 2.5vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2vw;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #992B17;
+}
+
+.roomButton:hover{
+    color: #D8C05B;
+    transition-duration: 0.6s;
+}

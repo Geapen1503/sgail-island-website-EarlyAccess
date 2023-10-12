@@ -1,0 +1,54 @@
+#MainBox{
+    display: flex;
+    width: 100%;
+    height: 190vw;
+    flex-direction: column;
+
+    background-color: pink;
+}
+
+.backgroundImgBox{
+    display: flex;
+    width: 100%;
+    height: 190vw;
+    position: relative;
+    z-index: 0;
+}
+
+.background-image{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    clip-path: inset(-0% -100% -100% -100%);
+}
+
+.aboutArkBox{
+    display: flex;
+    width: 85vw;
+    height: 80vw;
+    flex-direction: column;
+    align-self: center;
+    margin-top: -140vw;
+    z-index: 1;
+}
+
+.aboutArkTitle{
+    color: white;
+    font-weight: bold;
+    font-size: 8.5vw;
+    text-align: center;
+}
+
+.aboutArkDescription{
+    color: white;
+    margin-top: 6.5vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    font-weight: bold;
+    font-size: 3.5vw;
+    font-style: italic;
+    text-align: center;
+}
